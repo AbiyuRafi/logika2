@@ -49,7 +49,7 @@
             </div>
             <div class="kotak">
                 <b>23 Juni 2023 : Abiyu Rafi</b>
-                <p class="t">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum sed iste provident!</p>
+                <p class="txt">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum sed iste provident!</p>
                 <img src="img/berlubang.jpg" alt="">
             </div>
         </div>
@@ -76,6 +76,7 @@
     <footer>
         <p>Copyright &copy; 2023 </p>
     </footer>
+
 </body>
 
 </html>

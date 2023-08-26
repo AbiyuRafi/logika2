@@ -112,12 +112,12 @@ button {
 
 .kotak b {
     float: right;
-    margin-top: 25px;
+    margin-top: 30px;
     margin-right: 20px;
 }
 
 .kotak .txt {
-    margin-top: 35px;
+    margin-top: 45px;
     margin-left: 20px;
 }
 
@@ -126,7 +126,6 @@ button {
     width: 180px;
     margin-top: -30px;
 }
-
 
 footer {
     text-align: center;
@@ -138,11 +137,13 @@ footer {
     padding: 10px;
 }
 
-.if {
-    width: 600px;
-}
-
 iframe {
     margin-left: 640px;
     margin-bottom: -550px;
+}
+
+button{
+    background-color: #9d0208;
+    color: #fff;
+    border-radius: 5px;
 }
