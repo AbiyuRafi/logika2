@@ -72,7 +72,8 @@ img {
     justify-content: center;
 }
 
-input[type] {
+input[type=text],
+[type=number] {
     margin-top: 12px;
     margin-bottom: 10px;
     width: 500px;
@@ -97,8 +98,12 @@ form {
     padding: 40px;
 }
 
-button {
+input[type=submit] {
     float: right;
+    background-color: #9d0208;
+    color: #fff;
+    border-radius: 50px;
+    text-decoration: none;
 }
 
 .kotak {
@@ -117,14 +122,14 @@ button {
 }
 
 .kotak .txt {
-    margin-top: 45px;
     margin-left: 20px;
+    margin-top: 45px;
 }
 
 .kotak img {
     margin-left: 410px;
     width: 180px;
-    margin-top: -30px;
+    margin-top: -40px;
 }
 
 footer {
@@ -140,10 +145,4 @@ footer {
 iframe {
     margin-left: 640px;
     margin-bottom: -550px;
-}
-
-button{
-    background-color: #9d0208;
-    color: #fff;
-    border-radius: 5px;
 }

@@ -70,7 +70,7 @@
 
         <label for="gambar"><b>Upload Gambar Tekait :</b></label><br>
         <input type="file" name="gambar" id=""><br>
-        <button type="submit">Kirim Data</button>
+        <input type="submit" name="submit" value="Kirim Data">
     </form>
     </div>
     <footer>
