@@ -5,112 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <style>
-    body {
-        margin: 0;
-        padding: 0;
-    }
 
-    .but {
-        float: right;
-        margin-right: 20px;
-        text-decoration: none;
-        background-color: #dee2e6;
-        color: #000;
-        border-radius: 50px;
-        margin-bottom: 20px;
-        padding: 10px 20px;
-        margin-top: 10px;
-    }
-
-    .but:hover {
-        background: #ced4da;
-    }
-
-    .container {
-        clear: both;
-        margin-bottom: 20px;
-    }
-
-    .text h2 {
-        margin-left: 15px;
-    }
-
-    .text ul li {
-        font-size: 17px;
-        margin: 10px;
-        list-style-type: none;
-    }
-
-    .img {
-        float: right;
-        clear: both;
-        margin-right: 20px;
-        width: 45%;
-    }
-
-    img {
-        width: 100%;
-        margin-bottom: 50px;
-    }
-
-    .baris {
-        display: inline-flex;
-        justify-content: center;
-        padding: 20px;
-        margin-left: -20px;
-    }
-
-    .col {
-        margin: 400px 100px;
-        margin-bottom: 100px;
-        width: 309px;
-        max-width: 100%;
-        height: 120px;
-        background-color: #9d0208;
-        margin: 3px;
-        color: #eee;
-        font-size: 20px;
-        box-sizing: border-box;
-        padding: 10px;
-        float: left;
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    input[type] {
-        margin-top: 12px;
-        margin-bottom: 10px;
-        width: 500px;
-        height: 25px;
-    }
-    textarea{
-        margin-top: 12px;
-        margin-bottom: 10px;
-    }
-
-    form {
-        margin-left: 40px;
-        background-color: #dee2e6;
-        width: 500px;
-        padding: 30px;
-    }
-
-    button {
-        float: right;
-    }
-
-    .kotak {
-        float: right;
-        width: 600px;
-        height: 200px;
-        margin-right: 10px;
-        border: 2px solid black;
-    }
 </style>
 
 <body>
@@ -145,33 +44,38 @@
             <h1>
                 <center>Laporan Pengaduan</center>
             </h1>
-            <div class="kotak">
-
+            <div class="if">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.013923051399!2d106.84130407408345!3d-6.645191993349399!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69c89505b4c37d%3A0x307fc4a38e65fa2b!2sWikrama%20Bogor%20Vocational%20School!5e0!3m2!1sen!2sid!4v1692864386543!5m2!1sen!2sid" width="600" height="300" style="border: 0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" frameborder="0"></iframe>
             </div>
-            <form action="" method="post">
-                <label for="nik"><b> NIK :</b></label><br>
-                <input type="text" name="nik" value=""><br>
-
-                <label for="nama"><b>Nama Lengkap :</b></label><br>
-                <input type="text" name="nama" value=""><br>
-
-                <label for="notelp"><b>No Telp :</b></label><br>
-                <input type="number" name="tlp"><br>
-
-                <label for="pengaduan"><b>Pengaduan :</b></label><br>
-                <textarea name="" id="" cols="66" rows="10"></textarea><br>
-
-                <label for="gambar"><b>Upload Gambar Tekait :</b></label><br>
-                <input type="file" name="gambar" id=""><br>
-                <button type="submit">Kirim Data</button>
-            </form>
-
+            <div class="kotak">
+                <b>23 Juni 2023 : Abiyu Rafi</b>
+                <p class="t">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum sed iste provident!</p>
+                <img src="img/berlubang.jpg" alt="">
+            </div>
         </div>
-        <footer class="footer">
-            <p>&copy; 2023 Nama Anda. All rights reserved.</p>
-        </footer>
 
     </div>
+    <form action="" method="post">
+        <label for="nik"><b> NIK :</b></label><br>
+        <input type="text" name="nik" value=""><br>
+
+        <label for="nama"><b>Nama Lengkap :</b></label><br>
+        <input type="text" name="nama" value=""><br>
+
+        <label for="notelp"><b>No Telp :</b></label><br>
+        <input type="number" name="tlp"><br>
+
+        <label for="pengaduan"><b>Pengaduan :</b></label><br>
+        <textarea name="" id="" cols="66" rows="10"></textarea><br>
+
+        <label for="gambar"><b>Upload Gambar Tekait :</b></label><br>
+        <input type="file" name="gambar" id=""><br>
+        <button type="submit">Kirim Data</button>
+    </form>
+    </div>
+    <footer>
+        <p>Copyright &copy; 2023 </p>
+    </footer>
 </body>
 
 </html>
