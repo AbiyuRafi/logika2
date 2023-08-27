@@ -5,11 +5,159 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="style.css">
 </head>
 
 <style>
+    body {
+        margin: 0;
+        padding: 0;
+    }
 
+    .but {
+        float: right;
+        margin-right: 20px;
+        text-decoration: none;
+        background-color: #dee2e6;
+        color: #000;
+        border-radius: 50px;
+        margin-bottom: 20px;
+        padding: 10px 20px;
+        margin-top: 10px;
+    }
+
+    .but:hover {
+        background: #ced4da;
+    }
+
+    .container {
+        clear: both;
+        margin: 0 auto;
+    }
+
+    .text h2 {
+        margin-left: 15px;
+    }
+
+    .text ul li {
+        font-size: 17px;
+        margin: 10px;
+        list-style-type: none;
+    }
+
+    .img {
+        float: right;
+        clear: both;
+        margin-right: 20px;
+        width: 50%;
+    }
+
+    img {
+        width: 100%;
+        margin-bottom: 50px;
+    }
+
+    .baris {
+        display: inline-flex;
+        justify-content: center;
+        padding: 20px;
+        margin-left: -20px;
+    }
+
+    .col {
+        margin: 400px 100px;
+        margin-bottom: 100px;
+        width: 304px;
+        max-width: 100%;
+        height: 120px;
+        background-color: #9d0208;
+        margin: 3px;
+        color: #eee;
+        font-size: 20px;
+        box-sizing: border-box;
+        padding: 10px;
+        float: left;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    input[type=text],
+    [type=number] {
+        margin-top: 12px;
+        margin-bottom: 10px;
+        width: 500px;
+        height: 25px;
+    }
+
+    textarea {
+        margin-top: 12px;
+        margin-bottom: 10px;
+    }
+
+    .form h1 {
+        margin-top: 90px;
+    }
+
+    form {
+        position: relative;
+        margin-left: 20px;
+        margin-top: 10px;
+        background-color: #dee2e6;
+        width: 500px;
+        padding: 40px;
+    }
+
+    input[type=submit] {
+        float: right;
+        background-color: #9d0208;
+        color: #fff;
+        border-radius: 50px;
+        text-decoration: none;
+        overflow: hidden;
+    }
+
+
+    .kotak {
+        float: right;
+        margin-top: 10px;
+        width: 600px;
+        height: 200px;
+        margin-right: 20px;
+        border: 2px solid black;
+    }
+
+    .kotak b {
+        float: right;
+        margin-top: 30px;
+        margin-right: 20px;
+    }
+
+    .kotak .txt {
+        margin-left: 20px;
+        margin-top: 45px;
+    }
+
+    .kotak img {
+        margin-left: 410px;
+        width: 180px;
+        margin-top: -40px;
+    }
+
+    footer {
+        text-align: center;
+        background-color: #9d0208;
+        fill: solid;
+        margin-top: 50px;
+        width: 99%;
+        color: #fff;
+        padding: 5px;
+    }
+
+    iframe {
+        margin-left: 640px;
+        margin-bottom: -550px;
+    }
 </style>
 
 <body>
@@ -74,7 +222,7 @@
     </form>
     </div>
     <footer>
-        <p>Copyright &copy; 2023 </p>
+        <p>Copyright &copy; 2023 Abiyu Rafi</p>
     </footer>
 
 </body>

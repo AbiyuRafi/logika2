@@ -104,7 +104,9 @@ input[type=submit] {
     color: #fff;
     border-radius: 50px;
     text-decoration: none;
+    overflow: hidden;
 }
+
 
 .kotak {
     float: right;
@@ -136,10 +138,10 @@ footer {
     text-align: center;
     background-color: #9d0208;
     fill: solid;
-    margin-top: 60px;
-    width: 98%;
+    margin-top: 50px;
+    width: 99%;
     color: #fff;
-    padding: 10px;
+    padding: 5px;
 }
 
 iframe {
