@@ -144,6 +144,34 @@
         margin-top: -40px;
     }
 
+    .kotak2 {
+        float: right;
+        margin-top: 40px;
+        width: 600px;
+        height: 200px;
+        margin-right: 20px;
+        justify-content: baseline;
+        margin-left: 20px;
+        border: 2px solid black;
+    }
+
+    .kotak2 b {
+        float: right;
+        margin-top: 30px;
+        margin-right: 20px;
+    }
+
+    .kotak2 .txt {
+        margin-left: 20px;
+        margin-top: 45px;
+    }
+
+    .kotak2 img {
+        margin-left: 410px;
+        width: 180px;
+        margin-top: -40px;
+    }
+
     footer {
         text-align: center;
         background-color: #9d0208;
@@ -152,12 +180,7 @@
         width: 99%;
         color: #fff;
         padding: 5px;
-    }
-
-    iframe {
-        margin-left: 640px;
-        margin-bottom: -550px;
-    }
+    }   
 </style>
 
 <body>
@@ -192,12 +215,14 @@
             <h1>
                 <center>Laporan Pengaduan</center>
             </h1>
-            <div class="if">
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.013923051399!2d106.84130407408345!3d-6.645191993349399!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69c89505b4c37d%3A0x307fc4a38e65fa2b!2sWikrama%20Bogor%20Vocational%20School!5e0!3m2!1sen!2sid!4v1692864386543!5m2!1sen!2sid" width="600" height="300" style="border: 0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" frameborder="0"></iframe>
-            </div>
             <div class="kotak">
                 <b>23 Juni 2023 : Abiyu Rafi</b>
                 <p class="txt">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum sed iste provident!</p>
+                <img src="img/berlubang.jpg" alt="">
+            </div>
+            <div class="kotak2">
+                <b>23 Juni 2023 : Abiyu Rafi</b>
+                <p class="txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora hic voluptatem unde!r</p>
                 <img src="img/berlubang.jpg" alt="">
             </div>
         </div>
