@@ -49,11 +49,15 @@
         clear: both;
         margin-right: 20px;
         width: 50%;
+        flex-direction: row;
+        flex-wrap: wrap;
     }
 
     img {
-        width: 100%;
+        width: 550px;
         margin-bottom: 50px;
+        max-width: 100%;
+
     }
 
     .baris {
@@ -61,6 +65,8 @@
         justify-content: center;
         padding: 20px;
         margin-left: -20px;
+        flex-wrap: wrap;
+        flex-direction: row;
     }
 
     .col {
@@ -180,7 +186,97 @@
         width: 99%;
         color: #fff;
         padding: 5px;
-    }   
+    }
+
+    @media screen and (max-width: 768px) {
+        .img {
+            float: none;
+            width: 100%;
+            margin-right: 0;
+        }
+
+        .col {
+            margin: 10px auto;
+            width: 80%;
+            text-align: center;
+        }
+
+        input[type=text],
+        input[type=number],
+        textarea,
+        input[type=file] {
+            width: 100%;
+            margin-left: 0;
+            margin-right: 0;
+        }
+
+        .kotak {
+            float: none;
+            margin-right: 0;
+            margin-left: 0;
+            width: 100%;
+            text-align: center;
+        }
+
+        .kotak2 {
+            float: none;
+            margin-right: 0;
+            margin-left: 0;
+            width: 100%;
+            text-align: center;
+        }
+
+        .kotak b {
+            float: none;
+            margin-top: 10px;
+            margin-right: 0;
+        }
+        .kotak2 b {
+            float: none;
+            margin-top: 10px;
+            margin-right: 0;
+        }
+
+        .kotak .txt {
+            margin-left: 0;
+            margin-top: 10px;
+        }
+        .kotak2 .txt {
+            margin-left: 0;
+            margin-top: 10px;
+        }
+
+        .kotak img {
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: auto;
+            display: block;
+            max-width: 80%;
+        }
+
+        .kotak2 img {
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: auto;
+            display: block;
+            max-width: 80%;
+        }
+
+        .form {
+            margin-left: 0;
+            margin-top: 10px;
+            padding: 20px;
+        }
+
+        form {
+            width: auto;
+            margin-right: 13px;
+        }
+
+        footer {
+            width: auto;
+        }
+    }
 </style>
 
 <body>
@@ -192,10 +288,12 @@
             <h2>Pengaduan Masyarakat</h2>
             <ul>
                 <li>
-                    1. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae dolor eveniet enim sit nihil.
+                    1. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repudiandae dolor eveniet enim sit
+                    nihil.
                 </li>
                 <li>
-                    2. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit, excepturi? Sint omnis voluptates facere nostrum!
+                    2. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Impedit, excepturi? Sint omnis
+                    voluptates facere nostrum!
                 </li>
                 <li>
                     3. Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique hic in sunt.
@@ -204,51 +302,53 @@
                     4. Lorem ipsum dolor sit amet consectetur adipisicing elit.
                 </li>
             </ul>
-            <section class="baris">
-                <div class="col">Jumlah Kecamatan<br>15</div>
-                <div class="col">Jumlah Desa <br>42</div>
-                <div class="col">Jumlah Penduduk <br>12.000</div>
-                <div class="col">Data per Tahun <br>2023</div>
-            </section>
         </div>
-        <div class="form">
-            <h1>
-                <center>Laporan Pengaduan</center>
-            </h1>
-            <div class="kotak">
-                <b>23 Juni 2023 : Abiyu Rafi</b>
-                <p class="txt">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum sed iste provident!</p>
-                <img src="img/berlubang.jpg" alt="">
+        <section class="baris">
+            <div class="col">Jumlah Kecamatan<br>15</div>
+            <div class="col">Jumlah Desa <br>42</div>
+            <div class="col">Jumlah Penduduk <br>12.000</div>
+            <div class="col">Data per Tahun <br>2023</div>
+        </section>
+        <div class="content">
+            <div class="form">
+                <h1>
+                    <center>Laporan Pengaduan</center>
+                </h1>
+                <div class="kotak">
+                    <b>23 Juni 2023 : Abiyu Rafi</b>
+                    <p class="txt">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nostrum sed iste provident!
+                    </p>
+                    <img src="img/berlubang.jpg" alt="">
+                </div>
+                <div class="kotak2">
+                    <b>23 Juni 2023 : Abiyu Rafi</b>
+                    <p class="txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora hic voluptatem
+                        unde!r</p>
+                    <img src="img/berlubang.jpg" alt="">
+                </div>
             </div>
-            <div class="kotak2">
-                <b>23 Juni 2023 : Abiyu Rafi</b>
-                <p class="txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora hic voluptatem unde!r</p>
-                <img src="img/berlubang.jpg" alt="">
-            </div>
+
+            <form action="" method="post">
+                <label for="nik"><b> NIK :</b></label><br>
+                <input type="text" name="nik" value=""><br>
+
+                <label for="nama"><b>Nama Lengkap :</b></label><br>
+                <input type="text" name="nama" value=""><br>
+
+                <label for="notelp"><b>No Telp :</b></label><br>
+                <input type="number" name="tlp"><br>
+
+                <label for="pengaduan"><b>Pengaduan :</b></label><br>
+                <textarea name="" id="" cols="66" rows="10"></textarea><br>
+
+                <label for="gambar"><b>Upload Gambar Tekait :</b></label><br>
+                <input type="file" name="gambar" id=""><br>
+                <input type="submit" name="submit" value="Kirim Data">
+            </form>
         </div>
-
-    </div>
-    <form action="" method="post">
-        <label for="nik"><b> NIK :</b></label><br>
-        <input type="text" name="nik" value=""><br>
-
-        <label for="nama"><b>Nama Lengkap :</b></label><br>
-        <input type="text" name="nama" value=""><br>
-
-        <label for="notelp"><b>No Telp :</b></label><br>
-        <input type="number" name="tlp"><br>
-
-        <label for="pengaduan"><b>Pengaduan :</b></label><br>
-        <textarea name="" id="" cols="66" rows="10"></textarea><br>
-
-        <label for="gambar"><b>Upload Gambar Tekait :</b></label><br>
-        <input type="file" name="gambar" id=""><br>
-        <input type="submit" name="submit" value="Kirim Data">
-    </form>
-    </div>
-    <footer>
-        <p>Copyright &copy; 2023 Abiyu Rafi</p>
-    </footer>
+        <footer>
+            <p>Copyright &copy; 2023 Abiyu Rafi</p>
+        </footer>
 
 </body>
 
